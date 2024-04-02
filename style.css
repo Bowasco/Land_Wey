@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243,243,243);
+    font-family: sans-serif;
+}
+section{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+.land{
+    width: 80%;
+    margin: 0 auto;
+}
+.wey{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid rgb(204,204,204);
+}
+.plot img{
+    width: 8rem;
+}
+.inspect ul{
+    list-style-type: none;
+}
+.inspect ul li{
+    display: inline-block;
+    position: relative;
+}
+.inspect ul li a{
+    display: block;
+    /* padding: 20px 25px; */
+}
+.inspect ul li ul.dropdown li{
+    display: block;
+    padding: 10px;
+}
+.inspect ul li ul.dropdown{
+    width: 125%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.inspect ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+
+
+
+.inspect{
+    display: flex;
+    align-items: center;
+}
+.inspect a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgb(47,47,47);
+    font-size: 14px;
+    font-weight: 600;
+}
+.lagos{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 3rem 0;
+    border-bottom: 1px solid rgb(204,204,204);
+}
+.lagos h2{
+    font-size: 47px;
+    font-weight: 600;
+    width: 35%;
+    color: rgb(51,51,51);
+}
+.lagos p{
+    width: 57%;
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    color: rgb(176,173,173);
+}
+.lakowe{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5rem 0 3rem 0;
+}
+.lakowe img{
+    width: 60%;
+}
+.lekki{
+    width: 40%;
+    background-color: #f2f2f2;
+    padding: 20px 55px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+.lekki h4{
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px 5px;
+}
+.lekki h2{
+    width: 70%;
+    font-size: 25px;
+    font-weight: 700;
+}
+.lekki h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+.lekki p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 75%;
+}
+.lekki h5{
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+footer{
+    background-color: black;
+    margin-top: 5rem;
+    padding: 6rem 3rem;
+}
+.foot{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid white;   
+}
+.toe{
+    display: flex;
+    justify-content: space-between; 
+    /* padding-top: 10px; */
+}
+.head{
+    width: 25%;
+    /* padding-top: 20px; */
+}
+.head h2{
+    padding-top: 40px;
+    color: white;
+}
+.head p{
+    padding-top: 20px;
+    color: rgb(124,124,116);
+}
